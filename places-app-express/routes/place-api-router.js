@@ -6,8 +6,8 @@ const router = express.Router();
 
 router.get("/my-places", (req, res, next) => {
     Place
-      .find()
-      .limit(5)
+      .find({ owner: req.user._id })
+      .limit(20)
       .exec()
       .then( (placeResults) => {
           res.status(200).json(placeResults);
@@ -19,21 +19,19 @@ router.get("/my-places", (req, res, next) => {
       });
 }); // GET /my-places
 
+// POST /my-places
 router.post("/my-places", (req, res, next) => {
-    const thePlace = new Place({
-      placeName: req.body.placeName,
-      address: req.body.address,
-      mapURL: req.body.mapURL,
-      website: req.body.website,
-      openDay: req.body.openDay,
-      openTime: req.body.openTime,
-      closeTime: req.body.closeTime,
-      owner: req.user._id
+    if (req.user === undefined) {
+        res.status(400).json({ error: "You must be logged in to see this page." });
+    }
+
+    req.body.googlePlaces.forEach(function(onePlace) {
+        onePlace.owner = req.user._id;
     });
 
-    thePlace.save()
-      .then( () => {
-          res.status(200).json(thePlace);
+    Place.create(req.body.googlePlaces)
+      .then( (allPlaces) => {
+          res.status(200).json(allPlaces);
       })
       .catch( (err) => {
           if (err.errors) {

@@ -8,9 +8,8 @@ const placeSchema = new Schema(
       address: { type: String },
       mapURL: { type: String },
       website: { type: String },
-      openDay: { type: String },
-      openTime: { type: String },
-      closeTime: { type: String },
+      status: { type: String },
+      hours: { type: String },
       owner: { type: Schema.Types.ObjectId }
   }
 );
