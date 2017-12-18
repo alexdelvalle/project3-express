@@ -44,6 +44,9 @@ app.use("/api", placeApi);
 const userApi = require("./routes/user-api-router");
 app.use("/api", userApi);
 
+const timeApi = require("./routes/time-api-router");
+app.use("/api", timeApi);
+
 // END OF ROUTERS --------------------------------------------------------------
 
 module.exports = app;
