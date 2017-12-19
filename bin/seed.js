@@ -507,11 +507,11 @@ const timeList = [
                   },
                   {
                     hour: 15,
-                    busyLevel: 6
+                    busyLevel: 4
                   },
                   {
                     hour: 18,
-                    busyLevel: 4
+                    busyLevel: 6
                   },
                   // {
                   //   hour: 21,
