@@ -13,14 +13,14 @@ const timeList = [
           {
               day: 0,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 5
@@ -33,23 +33,23 @@ const timeList = [
                     hour: 18,
                     busyLevel: 7
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 1,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 2
@@ -62,23 +62,23 @@ const timeList = [
                     hour: 18,
                     busyLevel: 5
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 2,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 4
@@ -91,23 +91,23 @@ const timeList = [
                     hour: 18,
                     busyLevel: 2
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 3,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 3
@@ -120,23 +120,23 @@ const timeList = [
                     hour: 18,
                     busyLevel: 6
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 4,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 4
@@ -149,23 +149,23 @@ const timeList = [
                     hour: 18,
                     busyLevel: 6
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 5,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 8
@@ -178,23 +178,23 @@ const timeList = [
                     hour: 18,
                     busyLevel: 4
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 6,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 5
@@ -207,10 +207,10 @@ const timeList = [
                     hour: 18,
                     busyLevel: 7
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
 
@@ -224,10 +224,10 @@ const timeList = [
           {
               day: 0,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 3
@@ -253,10 +253,10 @@ const timeList = [
           {
               day: 1,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 4
@@ -282,10 +282,10 @@ const timeList = [
           {
               day: 2,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 4
@@ -311,10 +311,10 @@ const timeList = [
           {
               day: 3,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 4
@@ -340,10 +340,10 @@ const timeList = [
           {
               day: 4,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 4
@@ -369,10 +369,10 @@ const timeList = [
           {
               day: 5,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 4
@@ -398,10 +398,10 @@ const timeList = [
           {
               day: 6,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 3
@@ -435,14 +435,14 @@ const timeList = [
           {
               day: 0,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 5
@@ -451,23 +451,23 @@ const timeList = [
                     hour: 15,
                     busyLevel: 8
                   },
-                  {
-                    hour: 18,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 18,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 1,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 4
@@ -484,19 +484,19 @@ const timeList = [
                     hour: 18,
                     busyLevel: 6
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 2,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 3
@@ -513,19 +513,19 @@ const timeList = [
                     hour: 18,
                     busyLevel: 4
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 3,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 2
@@ -542,19 +542,19 @@ const timeList = [
                     hour: 18,
                     busyLevel: 4
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 4,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 2
@@ -571,19 +571,19 @@ const timeList = [
                     hour: 18,
                     busyLevel: 6
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 5,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 9,
                     busyLevel: 2
@@ -600,23 +600,23 @@ const timeList = [
                     hour: 18,
                     busyLevel: 3
                   },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
           {
               day: 6,
               hours: [
-                  {
-                    hour: 6,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 9,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 6,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 9,
+                  //   busyLevel: 0
+                  // },
                   {
                     hour: 12,
                     busyLevel: 5
@@ -625,14 +625,14 @@ const timeList = [
                     hour: 15,
                     busyLevel: 8
                   },
-                  {
-                    hour: 18,
-                    busyLevel: 0
-                  },
-                  {
-                    hour: 21,
-                    busyLevel: 0
-                  },
+                  // {
+                  //   hour: 18,
+                  //   busyLevel: 0
+                  // },
+                  // {
+                  //   hour: 21,
+                  //   busyLevel: 0
+                  // },
               ]
           },
 
